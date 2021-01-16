@@ -1,0 +1,158 @@
+.footer {
+    margin: 0px auto;
+    margin-top: 180px;
+    max-width: 1920;
+    background-color: rgb(0, 90, 163);
+}
+
+.footer-pic {
+    width: 100vw;
+    background-image: url(../img/footer.jpeg);
+    background-size: cover;
+    background-position:  center;
+    background-repeat: no-repeat;
+    height: 600px;
+    position: relative;
+}
+
+.footer-pic-word {
+    background-color: #cacad696;
+    margin: 0px auto;
+    width: 500px;
+    height: 350px;
+    position: absolute;
+    top: 20%;
+    left: 36%;
+    
+    text-align: center;
+}
+
+.f-pc-wd-h3p {
+    padding-top: 70px;
+    color: white;
+}
+
+.f-pc-wd-h3p h3 {
+    padding-bottom: 15px;
+    font-size: 30px;
+}
+
+.footer-pc-wd-link {
+    border-radius: 40px;
+    width: 300px;
+    height: 50px;
+    background-color: #0168DA;
+    margin: 40px auto;
+    line-height: 45px;
+}
+
+.footer-pc-wd-lastlink {
+    text-decoration: none;
+    color: white;
+}
+
+.footer-pc-wd-link a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer-detail {
+    margin: 0px auto;
+    max-width: 1200px;
+    height: 800px;
+    /* background-image: url(/icon/iconfinder_Diamond_1597485.png);
+    background-repeat: repeat;
+    background-position: center;
+    background-size: 10px 10px;
+    opacity: 0.6; */
+}
+
+
+/* .footer-detail h3 {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    padding-left: 100px;
+} */
+
+.footer-logo {
+    width: 600px;
+    display: flex;
+    margin-top: 100px;
+}
+
+.footer-detail-ulli {
+    display: flex;
+    margin-top: 50px;
+}
+
+.footer-detail-ulli ul {
+    color: white;
+    margin-right: 40px;
+}
+
+.footer-detail-ulli li {
+    padding-top: 25px;
+}
+
+.ft-tri {
+    max-width: 1920px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.ft-triangle {
+    width: 85px;
+    height: 90px;
+    border: white solid 1px;
+    padding: 10px 10px;
+}
+
+.ft-triangle a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 25px;
+    line-height: 25px;
+}
+
+.footer-icon {
+    background-color: #0E2453;
+    width: 100vw;
+    height: 100px;
+    margin-top: 0px;
+}
+
+.ft-link-all {
+    padding-top: 16px;
+    display: flex;
+}
+
+.ft-icon-fb {
+    width: 40px;
+    height: 40px;
+    margin: 14px 0px;
+    background-image: url(../icon/fb-1.png);
+    background-size: cover;
+    background-position: center;
+    margin-left: 130px;
+}
+
+.ft-icon-ig {
+    width: 50px;
+    height: 50px;
+    margin: 10px 0px;
+    background-image: url(../icon/ig-1.png);
+    background-size: cover;
+    background-position: center;
+    margin-left: 40px;
+}
+
+.ft-icon-tw {
+    width: 50px;
+    height: 50px;
+    margin: 10px 0px;
+    margin-left: 40px;
+    background-image: url(../icon/twiter-1.png);
+    background-size: cover;
+    background-position: center;
+}

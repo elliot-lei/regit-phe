@@ -1,0 +1,1857 @@
+ body {
+     background-color: rgb(236, 236, 236);
+     backdrop-filter: blur(20px);
+     position: relative;
+ }
+ /* 背景大圖塊 */
+ 
+ .bg-box-banner {
+     /* width: 1000px;
+     height: 1000px; */
+     background-color: #0093e2;
+     /* background: linear-gradient(#0093E2); */
+     position: absolute;
+     top: 500;
+     left: 300px;
+     transform: rotate(45deg);
+     margin: 0px auto;
+ }
+ /* .bg-box-content {
+     width: 1100px;
+     height: 1100px;
+     background-color: #075685;
+     z-index: -2;
+     position: absolute;
+     top: 1600px;
+     transform: rotate(45deg);
+     left: 165px;
+ } */
+ /* 背景大圖塊 */
+ 
+ .banner {
+     max-width: 100vw;
+     height: 600px;
+     background-color: darkgray;
+     margin: 0px auto;
+     background-image: url(https://images.pexels.com/photos/3877834/pexels-photo-3877834.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+     background-size: cover;
+     background-position: center;
+     box-shadow: 9px 10px 10px rgba(0, 0, 0, 0.651);
+     position: relative;
+ }
+ 
+ .banner-meau {
+     width: 100vw;
+     position: fixed;
+     z-index: 1;
+ }
+ 
+ .bannertitle {
+     display: flex;
+     justify-content: space-between;
+     background-color: #002f53;
+     height: 80px;
+ }
+ 
+ .logotitle {
+     display: flex;
+ }
+ 
+ .logotitle {
+     margin-left: 110px;
+     display: flex;
+ }
+ 
+ .logo-p-h1 p {
+     color: rgb(255, 255, 255);
+     font-size: 7px;
+     padding-left: 7px;
+     padding-bottom: 8px;
+ }
+ 
+ .logo-p-h1 h1 {
+     line-height: 50px;
+     margin-left: 15px;
+     font-size: 30px;
+     color: rgb(255, 255, 255);
+ }
+ 
+ .logo {
+     width: 50px;
+     height: 50px;
+     border-radius: 10px;
+     margin-left: 50px;
+     margin: 10px 0px;
+     /* background-image: url(../icon/handinhand-2.png);
+     background-size: cover;
+     background-position: center; */
+     border-radius: 30px;
+     background-color: white;
+ }
+ 
+ .logo img {
+     width: 50px;
+     height: 50px;
+ }
+ 
+ .logo-explain {
+     margin-left: 30px;
+ }
+ 
+ .logo-explain p {
+     color: aliceblue;
+     font-size: 13px;
+     padding-top: 20px;
+     padding-left: 20px;
+     line-height: 21px;
+ }
+ 
+ .logo-explain strong {
+     font-size: 16px;
+ }
+ 
+ .icon-fb {
+     width: 30px;
+     height: 30px;
+     margin: 14px 0px;
+     margin-right: 15px;
+     background-image: url(../icon/fb-1.png);
+     background-size: cover;
+     background-position: center;
+     opacity: 0.7;
+ }
+ 
+ .icon-fb:hover {
+     opacity: 1;
+     transition: all 0.4s linear;
+     transform: scale(1.3);
+ }
+ 
+ .icon-ig {
+     width: 40px;
+     height: 40px;
+     margin: 10px 0px;
+     margin-right: 15px;
+     background-image: url(../icon/ig-1.png);
+     background-size: cover;
+     background-position: center;
+     opacity: 0.7;
+ }
+ 
+ .icon-ig:hover {
+     opacity: 1;
+     transition: all 0.4s linear;
+     transform: scale(1.3);
+ }
+ 
+ .icon-tw {
+     width: 40px;
+     height: 40px;
+     margin: 10px 0px;
+     margin-right: 15px;
+     background-image: url(../icon/twiter-1.png);
+     background-size: cover;
+     background-position: center;
+     opacity: 0.7;
+ }
+ 
+ .icon-tw:hover {
+     opacity: 1;
+     transition: all 0.4s linear;
+     transform: scale(1.3);
+ }
+ 
+ .link-all {
+     display: flex;
+     align-items: center;
+ }
+ 
+ .linknb {
+     /* background-color: rgb(255, 255, 255); */
+     width: 120px;
+     height: 30px;
+     border-radius: 40px;
+     line-height: 30px;
+     color: white;
+     border: aliceblue solid 2px;
+     margin-right: 110px;
+ }
+ 
+ .linknb:hover {
+     background-color: white;
+     transition: all 0.4s linear;
+     color: #022F52;
+ }
+ 
+ .linknb p {
+     padding: 0px auto;
+     text-align: center;
+     font-size: 15px;
+     padding-right: 2px;
+ }
+ 
+ .meau {
+     background-color: white;
+     width: 100vw;
+     display: flex;
+     justify-content: center;
+     opacity: 0.9;
+ }
+ 
+ .meau ul {
+     display: flex;
+     margin: 0px auto;
+ }
+ 
+ .meauicon {
+     /* background-color: rgb(158, 158, 158); */
+     width: 30px;
+     height: 30px;
+     margin-left: 60px;
+     background-image: url(../icon/search.png);
+     background-size: cover;
+     background-position: center;
+ }
+ 
+ .meauicon-love {
+     /* background-color: rgb(158, 158, 158); */
+     width: 30px;
+     height: 30px;
+     margin-left: 60px;
+     background-image: url(../icon/love.png);
+     background-size: cover;
+     background-position: center;
+ }
+ 
+ .meauicon-mail {
+     /* background-color: rgb(158, 158, 158); */
+     width: 30px;
+     height: 30px;
+     margin-left: 60px;
+     background-image: url(../icon/mail.png);
+     background-size: cover;
+     background-position: center;
+ }
+ 
+ .meauicon-login {
+     /* background-color: rgb(158, 158, 158); */
+     width: 30px;
+     height: 30px;
+     margin-left: 60px;
+     background-image: url(../icon/login.png);
+     background-size: cover;
+     background-position: center;
+ }
+ 
+ .itembar {
+     display: flex;
+     justify-content: center;
+ }
+ 
+ .itembar a {
+     color: gray;
+     text-decoration: none;
+     margin: 10px 60px 10px 40px;
+     padding: 4px;
+ }
+ 
+ .itembar a:hover {
+     color: rgb(59, 59, 59);
+     border-radius: 5px;
+     transform: scale(1.05);
+     /* border: 1px solid #bebebe; */
+     transition: all 0.3s linear;
+ }
+ /* work in taiwan animation */
+ 
+ .taiwan {
+     position: absolute;
+     top: 440px;
+     left: 250px;
+     animation-name: taiwan;
+     animation-duration: 7s;
+     animation-delay: .5s;
+     animation-iteration-count: 1;
+     animation-timing-function: ease-out;
+     opacity: 1;
+ }
+ 
+ @keyframes taiwan {
+     0% {
+         top: 150px;
+         left: 250px;
+         opacity: 0;
+     }
+     25% {
+         top: 450px;
+         left: 250px;
+         opacity: 1;
+     }
+     50% {
+         top: 150px;
+         left: 250px;
+         opacity: 0;
+     }
+     100% {
+         top: 440px;
+         left: 250px;
+         opacity: 1;
+     }
+ }
+ 
+ .taiwan p {
+     font-size: 100px;
+     color: white;
+ }
+ 
+ .work {
+     position: absolute;
+     top: 390px;
+     left: 50px;
+     animation-name: work;
+     animation-duration: 5s;
+     animation-delay: .5s;
+     animation-iteration-count: 1;
+     animation-timing-function: ease-in-out;
+     opacity: 1;
+ }
+ 
+ @keyframes work {
+     0% {
+         top: 150px;
+         left: 50px;
+         opacity: 0;
+     }
+     25% {
+         top: 390px;
+         left: 50px;
+         opacity: 1;
+     }
+     50% {
+         top: 150px;
+         left: 50px;
+         opacity: 0;
+     }
+     100% {
+         top: 390px;
+         left: 50px;
+         opacity: 1;
+     }
+ }
+ 
+ .work p {
+     font-size: 60px;
+     color: white;
+ }
+ 
+ .in {
+     position: absolute;
+     top: 385px;
+     left: 220px;
+     animation-name: in;
+     animation-duration: 5s;
+     animation-delay: .5s;
+     animation-iteration-count: 1;
+     animation-timing-function: ease-in;
+     opacity: 1;
+ }
+ 
+ @keyframes in {
+     0% {
+         top: 150px;
+         left: 220px;
+         opacity: 0;
+     }
+     25% {
+         top: 385px;
+         left: 220px;
+         opacity: 1;
+     }
+     50% {
+         top: 150px;
+         left: 220px;
+         opacity: 0;
+     }
+     100% {
+         top: 385px;
+         left: 220px;
+         opacity: 1;
+     }
+ }
+ 
+ .in p {
+     font-size: 20px;
+     color: white;
+ }
+ /* work in taiwan */
+ /*  
+ .itembar a:after {
+     content: '';
+     width: 0%;
+     height: 2px;
+     background-color: rgb(158, 7, 7);
+     display: block;
+     transition: width .5s .5s;
+ }
+ 
+ .itembar :hover a :after {
+     width: 100%;
+ } */
+ 
+ .meau li {
+     border-left: gray solid 2px;
+     margin: 13px 0px;
+     text-align: center;
+ }
+ /* .itembar1 {
+     border-right: gray solid 2px;
+     padding: 0px 80px;
+     display: flex;
+ }
+ 
+ .meauicon1 {
+     background-color: rgb(158, 158, 158);
+     width: 30px;
+     height: 30px;
+     margin-right: 60px;
+ }
+ 
+ .itembar1 a {
+     color: gray;
+     text-decoration: none;
+     padding-top: 10px;
+ } */
+ 
+ .mainword {
+     position: absolute;
+     top: 3%;
+     left: 66%;
+     border: rgba(255, 255, 255, 0.842) solid 3px;
+     display: flex;
+     max-width: 400px;
+     height: 200px;
+     color: white;
+     text-align: center;
+     backdrop-filter: blur(11px);
+     box-shadow: 4px 4px 3px rgba(0, 0, 0, 0.705);
+ }
+ 
+ .mainwordp {
+     padding: 10px;
+     color: white;
+     padding: auto;
+     margin: 20px 0px;
+     line-height: 60px;
+     font-weight: 350px;
+     border-right: white solid 1px;
+ }
+ 
+ .mainlinkword h2 {
+     padding-bottom: 3px;
+     font-size: 20px;
+     padding-bottom: 3px;
+ }
+ 
+ .mainlinkword {
+     margin: 10px;
+     overflow: hidden;
+ }
+ 
+ .twomainlink {
+     margin: 10px auto;
+ }
+ 
+ .mainbutton1 {
+     width: 120px;
+     height: 40px;
+     background-color: #fff;
+     border-radius: 20px;
+     margin: 0px auto;
+     margin-top: 10px;
+ }
+ 
+ .mainbutton1:hover {
+     background-color: rgb(128, 128, 128);
+     transition: all 0.4s linear;
+ }
+ 
+ .mainbutton1 a {
+     text-decoration: none;
+     text-align: center;
+     color: gray;
+     line-height: 34px;
+ }
+ 
+ .mainbutton1 a:hover {
+     color: white;
+ }
+ 
+ .mainbutton2 {
+     width: 120px;
+     height: 40px;
+     background-color: #124c70;
+     border-radius: 20px;
+     margin: 0px auto;
+     margin-top: 10px;
+ }
+ 
+ .mainbutton2 :hover {
+     background-color: rgb(255, 255, 255);
+     transition: all 0.4s linear;
+ }
+ 
+ .mainbutton2 a {
+     text-decoration: none;
+     text-align: center;
+     color: white;
+     line-height: 34px;
+ }
+ 
+ .mainbutton2 a:hover {
+     color: #124C70;
+ }
+ 
+ .threeitem {
+     display: flex;
+     position: absolute;
+     top: 7%;
+     left: 23%;
+ }
+ 
+ .itemcd {
+     margin: 0px auto;
+     width: 190px;
+     height: 70px;
+     margin-left: 65px;
+     background-color: #183952ee;
+     display: flex;
+     border-radius: 5px;
+ }
+ 
+ .itempic-apply {
+     width: 50px;
+     height: 50px;
+     background-image: url(../icon/three-item-logon.png);
+     background-size: cover;
+     background-position: center;
+     display: flex;
+     align-items: center;
+     margin-left: 18px;
+     margin-top: 3px;
+ }
+ 
+ .itempic-resume {
+     width: 50px;
+     height: 50px;
+     background-image: url(../icon/three-item-resume.png);
+     background-size: cover;
+     background-position: center;
+     display: flex;
+     align-items: center;
+     margin-left: 18px;
+     margin-top: 5px;
+ }
+ 
+ .itempic-inter {
+     width: 50px;
+     height: 50px;
+     background-image: url(../icon/three-item-inter.png);
+     background-size: cover;
+     background-position: center;
+     display: flex;
+     align-items: center;
+     margin-left: 18px;
+     margin-top: 5px;
+ }
+ 
+ .itemcdp {
+     color: rgb(145, 145, 145);
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin-left: 20px;
+ }
+ 
+ .itemcdp a {
+     color: rgb(255, 255, 255);
+     text-decoration: none;
+     margin-bottom: 8px;
+     padding: 3px;
+ }
+ 
+ .itemcdp p {
+     padding: 3px;
+ }
+ 
+ .itemcdp a :hover {
+     /* transform: scale(1.3); */
+     border: 1px solid white;
+     border-radius: 5px;
+     color: white;
+     transition: all .4s ease-in;
+ }
+ 
+ .content {
+     max-width: 1200px;
+     height: 450px;
+     margin: 0px auto;
+     margin-top: 100px;
+     background-color: #0093e2;
+     box-shadow: 9px 6px 10px rgba(0, 0, 0, 0.486);
+ }
+ 
+ .content h2 {
+     color: white;
+     text-align: center;
+     margin: 0px auto;
+     padding: 20px;
+     margin-top: 20px;
+     font-weight: 30px;
+ }
+ 
+ .search {
+     max-width: 1200px;
+ }
+ 
+ .searchbar {
+     display: flex;
+     max-width: 1100px;
+     justify-content: center;
+ }
+ 
+ .searchbarleft {
+     height: 100px;
+     margin: 40px auto;
+     border-right: solid white 2px;
+ }
+ 
+ .searchbarleft input {
+     height: 40px;
+     margin-left: 50px;
+     margin-right: 40px;
+     border: solid white 2px;
+ }
+ 
+ .searchbarleft h3 {
+     color: white;
+     text-align: center;
+ }
+ 
+ .searchbox1 {
+     background-color: white;
+     width: 40px;
+     height: 30px;
+     margin: 20px 0px 0px 30px;
+ }
+ 
+ .searchbarleft h3 {
+     margin-bottom: 30px;
+ }
+ 
+ .searchbarleft select {
+     margin-left: 70px;
+     width: 90px;
+     height: 50px;
+     border: solid white 2px;
+ }
+ 
+ .searchbarright h2 {
+     padding-top: 30px;
+     text-align: center;
+     line-height: 5px;
+ }
+ 
+ .searchbarright ul {
+     display: flex;
+     flex-wrap: wrap;
+     margin-top: 20px;
+     margin-left: 10px;
+ }
+ 
+ .searchbarright li {
+     margin-left: 5px;
+     padding: 5px;
+     border-radius: 10px;
+     text-align: center;
+ }
+ 
+ .searchbarright li :hover {
+     background-color: white;
+     border-radius: 10px;
+     padding: 5px;
+     transition: all .4s linear;
+ }
+ 
+ .searchbarright a {
+     color: white;
+     padding: 5px;
+     text-decoration: none;
+ }
+ 
+ .searchbarright a:hover {
+     color: rgb(0, 84, 153);
+     transform: scale(1.1);
+ }
+ 
+ .CheckSearchBtn {
+     display: flex;
+     justify-content: center;
+ }
+ 
+ .CheckSearchBtn input {
+     width: 300px;
+     height: 40px;
+     border-radius: 20px;
+     margin: 20px auto;
+     text-align: center;
+     line-height: 30px;
+     color: rgb(0, 84, 153);
+     cursor: pointer;
+ }
+ /* .CheckSearchBtn:hover {
+     background-color: #005fc5cc;
+     transition: all .4s linear;
+ } */
+ 
+ .CheckSearchBtn a {
+     color: white;
+     text-decoration: none;
+     line-height: 39px;
+ }
+ 
+ .CheckSearchBtn a :hover {
+     color: rgb(0, 84, 153);
+ }
+ 
+ .lastBtnLink {
+     margin: 10px auto;
+     text-align: center;
+ }
+ 
+ .lastBtnLink a {
+     color: rgb(243, 243, 243);
+     font-size: 15px;
+ }
+ 
+ .lastBtnLink a :hover {
+     color: #005daf;
+     transition: all .4s ease-in;
+ }
+ /* adthreebox */
+ 
+ .adThreeBox {
+     display: flex;
+     margin: 50px auto;
+     justify-content: center;
+ }
+ 
+ .adBoxChina {
+     height: 200px;
+     width: 350px;
+     background-image: url(../img/adthreebox1.jpeg);
+     background-size: cover;
+     background-position: center;
+     margin-left: 10px;
+     position: relative;
+ }
+ 
+ .adBoxChina-word {
+     position: absolute;
+     top: 61%;
+     right: 0;
+     bottom: 0;
+     left: 0;
+     height: 40%;
+     padding: 20px;
+     background-color: #25252560;
+     backdrop-filter: blur(20px);
+     display: flex;
+     justify-content: center;
+     font-display: column;
+     opacity: 0;
+     transition: all .3s ease-in;
+ }
+ 
+ .adBoxChina:hover .adBoxChina-word {
+     opacity: 1;
+ }
+ 
+ .adBoxChina:hover {
+     box-shadow: 9px 10px 7px rgba(0, 0, 0, 0.37);
+ }
+ 
+ .adBoxChina-word p {
+     line-height: 40px;
+     color: white;
+ }
+ 
+ .adBoxAmc {
+     height: 200px;
+     width: 350px;
+     background-image: url(../img/adthreebox2.jpeg.jpeg);
+     background-size: cover;
+     background-position: center;
+     margin-left: 10px;
+     position: relative;
+ }
+ 
+ .adBoxAmc-word {
+     position: absolute;
+     top: 61%;
+     right: 0;
+     bottom: 0;
+     left: 0;
+     height: 40%;
+     padding: 20px;
+     background-color: #25252560;
+     backdrop-filter: blur(20px);
+     display: flex;
+     justify-content: center;
+     font-display: column;
+     opacity: 0;
+     transition: all .3s ease-in;
+ }
+ 
+ .adBoxAmc:hover .adBoxAmc-word {
+     opacity: 1;
+ }
+ 
+ .adBoxAmc:hover {
+     box-shadow: 9px 10px 10px rgba(0, 0, 0, 0.37);
+ }
+ 
+ .adBoxAmc-word p {
+     line-height: 40px;
+     color: white;
+ }
+ 
+ .adBoxJapan {
+     background-color: darkgray;
+     height: 200px;
+     width: 350px;
+     background-image: url(../img/adthreebox3.jpeg.jpeg);
+     background-size: cover;
+     background-position: center;
+     margin-left: 10px;
+     position: relative;
+ }
+ 
+ .adBoxJapan-word {
+     position: absolute;
+     top: 61%;
+     right: 0;
+     bottom: 0;
+     left: 0;
+     height: 40%;
+     padding: 20px;
+     background-color: #25252560;
+     backdrop-filter: blur(20px);
+     display: flex;
+     justify-content: center;
+     font-display: column;
+     opacity: 0;
+     transition: all .3s ease-in;
+ }
+ 
+ .adBoxJapan:hover .adBoxJapan-word {
+     opacity: 1;
+ }
+ 
+ .adBoxJapan:hover {
+     box-shadow: 9px 10px 10px rgba(0, 0, 0, 0.37);
+ }
+ 
+ .adBoxJapan-word p {
+     line-height: 40px;
+     color: white;
+ }
+ 
+ .proSkillLink {
+     width: 600px;
+     height: 150px;
+     display: flex;
+     justify-content: center;
+     margin: 20px auto;
+ }
+ 
+ .leftItd {
+     background-color: rgb(156, 156, 156);
+     width: 300px;
+     height: 150px;
+ }
+ 
+ .leftItd h3 {
+     color: white;
+     text-align: start;
+     line-height: 30px;
+     padding-left: 20px;
+     padding-top: 10px;
+ }
+ 
+ .rightSkillLk {
+     background-image: url(../img/battery\ power.jpg);
+     background-size: cover;
+     background-position: center;
+     width: 300px;
+     height: 150px;
+ }
+ /* adthreebox */
+ 
+ .PSLLlogop {
+     display: flex;
+     margin-top: 10px;
+ }
+ 
+ .PSLLlogo {
+     background-color: rgb(255, 255, 255);
+     background-image: url(../icon/ad\ company\ leaf.png);
+     background-size: cover;
+     background-position: center;
+     width: 50px;
+     height: 50px;
+     border-radius: 20px;
+     margin-left: 10px;
+ }
+ 
+ .PSLLp {
+     color: rgb(255, 255, 255);
+     margin-left: 5px;
+ }
+ 
+ .PSLLp p {
+     font-size: 20px;
+ }
+ 
+ .PSLLp small {
+     font-size: 9px;
+ }
+ 
+ .PSLLp a {
+     font-size: 18px;
+     /* margin-left: 20px; */
+     text-align: right;
+     color: #fff;
+     line-height: 20px;
+     padding-left: 120px;
+ }
+ /* .PSLLp a :hover {
+     color: #9C9C9C;
+     transform: scale(1.1);
+ } */
+ 
+ .PSLLplink a {
+     color: gray;
+     text-decoration: none;
+     padding: 2px 3px;
+ }
+ /* 職業快速選項 */
+ 
+ .jobTag {
+     max-width: 1200px;
+     background-color: #055585;
+     margin: 0px auto;
+     margin-top: 100px;
+     box-shadow: 9px 6px 10px rgba(0, 0, 0, 0.486);
+ }
+ 
+ .jobTag-title {
+     display: flex;
+     justify-content: start;
+     margin: 0px 0px 0px 160px;
+ }
+ 
+ .jobTag-title h2 {
+     color: white;
+     line-height: 50px;
+     margin-top: 20px;
+ }
+ 
+ .jT-title-logo {
+     background-image: url(../icon/white\ search.png);
+     background-position: center;
+     background-size: cover;
+     width: 50px;
+     height: 50px;
+     margin-top: 20px;
+ }
+ 
+ .jobTag-area-level {
+     display: flex;
+     justify-content: center;
+     margin: 0px auto;
+ }
+ 
+ .jT-area {
+     width: 1100px;
+     margin: 0px auto;
+     margin-top: 30px;
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+ }
+ 
+ .jobtag-form {
+     width: 40%;
+     margin-top: 70px;
+     color: white;
+     border-right: solid 1px white;
+ }
+ 
+ .jobtag-form fieldset {
+     padding-left: 10px;
+ }
+ 
+ .jobtag-form-lastone {
+     width: 900px;
+     margin-top: 70px;
+     color: white;
+ }
+ 
+ fieldset {
+     margin-bottom: 20px;
+     margin-left: 5px;
+ }
+ 
+ legend {
+     display: flex;
+ }
+ 
+ legend p {
+     padding-left: 20px;
+     line-height: 30px;
+     margin-bottom: 40px;
+ }
+ 
+ .jobtag-form input {
+     margin-left: 5px;
+ }
+ 
+ .divh3 {
+     color: white;
+     line-height: 30px;
+     margin-left: 10px;
+ }
+ 
+ .jT-area-icon {
+     width: 30px;
+     height: 30px;
+     border-radius: 10px;
+     background-image: url(../icon/jobtag-locate.png);
+     background-size: 50px;
+     background-position: center;
+ }
+ 
+ .jT-level-icon {
+     width: 30px;
+     height: 30px;
+     border-radius: 10px;
+     background-image: url(../icon/jobtag-level.png);
+     background-size: cover;
+     background-position: center;
+ }
+ 
+ .jT-language-icon {
+     width: 30px;
+     height: 30px;
+     border-radius: 10px;
+     background-image: url(../icon/jobtag-language.png);
+     background-size: cover;
+     background-position: center;
+ }
+ 
+ .jT-type-icon {
+     width: 30px;
+     height: 30px;
+     border-radius: 10px;
+     background-image: url(../icon/jobtag-work.png);
+     background-size: cover;
+     background-position: center;
+ }
+ 
+ .jT-benifits-icon {
+     width: 30px;
+     height: 30px;
+     border-radius: 10px;
+     background-image: url(../icon/jobtag-benefits.png);
+     background-size: cover;
+     background-position: center;
+ }
+ 
+ .jT-profit {
+     margin: 10px 90px;
+ }
+ 
+ .jobtag-form-lastone {
+     margin-left: 23px;
+     border-top: white 1px solid;
+     padding-top: 20px;
+ }
+ 
+ .jobtag-form-lastone input {
+     margin-left: 12px;
+     margin-bottom: 10px;
+ }
+ 
+ .jT-btn {
+     background-color: white;
+     border-radius: 20px;
+     margin: 40px auto;
+     text-align: center;
+     width: 350px;
+     padding: 10px;
+     margin-bottom: 40px;
+ }
+ 
+ .jT-btn a {
+     text-decoration: none;
+     color: #075685;
+     font-size: 20px;
+ }
+ /* job sample chose */
+ 
+ .jobSample {
+     max-width: 1200px;
+     margin: 30px auto;
+     display: flex;
+     flex-wrap: wrap;
+     background-color: #15355D;
+ }
+ 
+ .jS-title {
+     display: flex;
+ }
+ 
+ .jS-title-logo {
+     background-color: white;
+     width: 50px;
+     height: 50px;
+     border-radius: 10px;
+     background-image: url(../icon/iconfinder_019_-_Star_2793016.png);
+     background-size: cover;
+     background-position: center;
+     margin: 10px 0px 10px 30px;
+     opacity: 0.9;
+ }
+ 
+ .jS-title h2 {
+     color: rgba(255, 255, 255, 0.767);
+     line-height: 60px;
+     margin-left: 30px;
+     font-size: 25px;
+ }
+ 
+ .jS-word-pic {
+     display: flex;
+     width: 1100px;
+     height: 350px;
+     background-color: #0275b3;
+     position: relative;
+     border-radius: 20px;
+     margin-top: 50px;
+     margin: 40px auto;
+ }
+ 
+ .jS-pic {
+     width: 340px;
+     height: 100%;
+     background-color: rgba(61, 178, 255, 0.521);
+     background-image: url(../img/company1.jpeg);
+     background-size: cover;
+     background-position: center;
+     position: relative;
+     border-radius: 10px 0px 0px 10px;
+ }
+ 
+ .jS-pic-ach {
+     width: 340px;
+     height: 100%;
+     background-color: rgba(61, 178, 255, 0.521);
+     background-image: url(../img/company2.jpeg);
+     background-size: cover;
+     background-position: center;
+     position: relative;
+     border-radius: 10px 0px 0px 10px;
+ }
+ 
+ .jS-pic-word {
+     position: absolute;
+     color: white;
+     top: 250px;
+     left: 10px;
+     border-radius: 20px;
+     padding: 10px;
+     width: 50px;
+     height: 40px;
+     background-color: rgba(255, 255, 255, 0.404);
+     background-image: url(../icon/iconfinder_31.ID-Horizontal_290119.png);
+     background-position: center;
+     background-size: cover;
+ }
+ /* 熱門搜尋工作 start */
+ 
+ .top-search-job {
+     min-width: 1200px;
+     margin: 100px auto;
+ }
+ 
+ .top-search-job ul {
+     display: flex;
+     justify-content: center;
+     margin-top: 20px;
+     margin-bottom: 20px;
+ }
+ 
+ .t-s-j-pic {
+     width: 780px;
+     height: 210px;
+     background-color: #ffffff;
+     background-image: url(../img/engineerori\ ad.jpg);
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center;
+     margin-left: 50px;
+     border-radius: 20px;
+     box-shadow: 9px 10px 10px rgba(0, 0, 0, 0.651);
+     /* border-radius: 20px; */
+ }
+ /* .t-s-j-pic :hover {
+     box-shadow: 9px 10px 10px rgba(0, 0, 0, 0.651);
+ } */
+ /* 熱門搜尋工作 end */
+ 
+ .jS-word {
+     width: 50%;
+     margin: 40px 0px 0px 30px;
+     color: white;
+ }
+ 
+ .jS-all-tag {
+     display: flex;
+     margin-left: 50px;
+ }
+ 
+ .jS-word-p {
+     margin: 20px 0px 0px 10px;
+ }
+ 
+ .jS-tag {
+     background-color: white;
+     border-radius: 10px;
+     margin-left: 50px;
+     width: 70px;
+     height: 30px;
+     color: #0093e2;
+     text-align: center;
+     line-height: 30px;
+ }
+ 
+ .jS-word-icon-p {
+     display: flex;
+     flex-wrap: wrap;
+ }
+ 
+ .jS-word-p {
+     color: white;
+     margin-top: 40px;
+     margin-left: 30px;
+ }
+ 
+ .jS-word-pIt {
+     margin-top: 10px;
+     overflow: hidden;
+     height: 60px;
+     overflow: scroll;
+     border-radius: 10px;
+ }
+ 
+ .jS-word-icon-lc {
+     width: 40px;
+     height: 40px;
+     background-image: url(../icon/iconfinder_Tilda_Icons_1ed_location_3586361.png);
+     background-size: cover;
+     background-position: center;
+     background-color: rgb(255, 255, 255);
+     border-radius: 10px;
+     margin-top: 20px;
+     margin-left: 20px;
+ }
+ 
+ .jS-word-icon-pay {
+     width: 40px;
+     height: 40px;
+     background-image: url(../icon/iconfinder_poor_3339009.png);
+     background-size: cover;
+     background-position: center;
+     background-color: rgb(255, 255, 255);
+     border-radius: 10px;
+     margin-top: 20px;
+     margin-left: 20px;
+ }
+ 
+ .jS-word-icon-time {
+     width: 40px;
+     height: 40px;
+     background-image: url(../icon/iconfinder_24-hours-support-service-time-always_3709755.png);
+     background-size: cover;
+     background-position: center;
+     background-color: rgb(255, 255, 255);
+     border-radius: 10px;
+     margin-top: 20px;
+     margin-left: 20px;
+     margin-bottom: 50px;
+ }
+ /* position circle and love */
+ 
+ .jS-icon-circle {
+     width: 80px;
+     height: 80px;
+     background-color: rgb(255, 255, 255);
+     border-radius: 50px;
+     background-image: url(../icon/iconfinder_SEO_search_969259\ \(1\).png);
+     background-size: cover;
+     background-position: center;
+     position: absolute;
+     top: -19px;
+     left: 1050px;
+ }
+ 
+ .jS-icon-love {
+     width: 50px;
+     height: 50px;
+     background-color: rgb(255, 255, 255);
+     border-radius: 50px;
+     background-image: url(../icon/iconfinder_166_Heart_Love_Like_Twitter_5172567.png);
+     background-size: contain;
+     background-position: center;
+     position: absolute;
+     top: 230px;
+     left: 1000px;
+ }
+ 
+ .jS-icon-mail {
+     width: 50px;
+     height: 50px;
+     background-color: rgb(255, 255, 255);
+     border-radius: 50px;
+     background-image: url(../icon/iconfinder_61-google-inbox_1047448\ \(1\).png);
+     background-size: cover;
+     background-position: center;
+     position: absolute;
+     top: 170px;
+     left: 1000px;
+     margin-bottom: 20px;
+ }
+ /* position circle and love */
+ /* job sample chose end  */
+ /* footer */
+ /* 在台灣工作的外國人照片輪播  */
+ 
+ .work-in-taiwan {
+     max-width: 1100px;
+     margin: 150px auto;
+     background-color: #0275B3;
+     padding: 40px 0px;
+     border-radius: 20px;
+ }
+ 
+ .W-I-T-pic {
+     background-image: url(../img/jobsample\ first\ lastone.jpg);
+     background-size: cover;
+     background-position: center;
+     width: 900px;
+     height: 600px;
+     margin: auto;
+     border-radius: 20px;
+     border-radius: 10px;
+     box-shadow: 9px 10px 10px rgb(39, 39, 39);
+     /* border-radius: 20px; */
+ }
+ 
+ .d-block {
+     margin: 0px auto;
+     border-radius: 10px;
+ }
+ 
+ .d-md-block {
+     width: 70%;
+     height: 20%;
+ }
+ /* 在台灣工作的外國人照片輪播  */
+ /* 技能資訊宣傳 開始 */
+ 
+ .ski-tra-title {
+     display: flex;
+     margin-left: 180px;
+ }
+ 
+ .ski-tra-icon {
+     background-image: url(../icon/skill\ training\ icon\ head.png);
+     background-size: cover;
+     background-position: center;
+     width: 70px;
+     height: 70px;
+     opacity: 0.8;
+ }
+ 
+ .ski-tra-wd {
+     padding-top: 50px;
+     color: gray;
+     font-size: 17px;
+ }
+ 
+ .skill-training {
+     max-width: 1200px;
+     margin: 150px auto;
+ }
+ 
+ .digital-painting {
+     max-width: 800px;
+     margin: 10px auto;
+     display: flex;
+     flex-wrap: wrap;
+     position: relative;
+     border-radius: 10px;
+     background-color: rgb(255, 255, 255);
+     box-shadow: 9px 10px 10px rgba(99, 99, 99, 0.651);
+ }
+ /* .digital-painting :hover {
+     box-shadow: 9px 10px 10px rgba(99, 99, 99, 0.651);
+ } */
+ 
+ .d-pat-pic {
+     width: 30%;
+     height: 250px;
+     background-image: url(https://i.pinimg.com/474x/71/2b/83/712b830e69d8d965bd1e2a74e02fa2b0.jpg);
+     background-position: center;
+     background-size: cover;
+     border-radius: 10px;
+ }
+ 
+ .d-pat-word {
+     width: 70%;
+     height: 200px;
+     position: relative;
+     color: gray;
+     line-height: 20px;
+ }
+ 
+ .d-pat-word h3,
+ p {
+     margin-left: 10px;
+ }
+ 
+ .d-pat-word-protrait {
+     position: absolute;
+     top: 0px;
+     right: 0px;
+     width: 90px;
+     height: 90px;
+     background-image: url(../img/skill\ painting\ teacher.jpg);
+     background-size: cover;
+     background-position: center;
+     border-radius: 10px;
+ }
+ 
+ .dig-pai-icon {
+     display: flex;
+     flex-wrap: wrap;
+     position: absolute;
+     width: 600px;
+     height: 110px;
+     top: 100px;
+     left: 250px;
+     /* flex-wrap: wrap; */
+ }
+ 
+ .d-p-i-signpw {
+     display: flex;
+     margin-left: 10px;
+ }
+ 
+ .d-p-i-wd {
+     color: rgb(71, 71, 71);
+     margin-left: 2px;
+ }
+ 
+ .d-p-i-wd p {
+     /* line-height: 100px; */
+     padding-top: 40px;
+ }
+ 
+ .d-p-i-sign {
+     background-image: url(../icon/skill-tar-free.png);
+     background-size: cover;
+     background-position: center;
+     opacity: 0.7;
+     width: 70px;
+     height: 60px;
+     margin-bottom: 25px;
+ }
+ 
+ .d-p-i-locat {
+     background-image: url(../icon/skill-tar-locat.png);
+     background-size: 90px;
+     background-position: center;
+     opacity: 0.7;
+     width: 70px;
+     height: 60px;
+ }
+ 
+ .d-p-i-money {
+     background-image: url(../icon/skill-tar-money.png);
+     background-size: 60px;
+     background-repeat: no-repeat;
+     background-position: center;
+     opacity: 0.7;
+     width: 70px;
+     height: 60px;
+ }
+ 
+ .d-p-i-km {
+     margin-top: 40px;
+     margin-left: 220px;
+     border: 1px solid gray;
+     font-size: 20px;
+     border-radius: 10px;
+ }
+ 
+ .d-p-i-km a {
+     color: gray;
+     text-decoration: none;
+     padding: 6px;
+ }
+ 
+ .poster-design {
+     max-width: 800px;
+     margin: 10px auto;
+     display: flex;
+     margin-top: 30px;
+     position: relative;
+     border-radius: 10px;
+     box-shadow: 9px 10px 10px rgba(99, 99, 99, 0.651);
+     background-color: rgb(255, 255, 255);
+ }
+ 
+ .p-des-pic {
+     width: 30%;
+     height: 250px;
+     background-image: url(https://i.pinimg.com/474x/f6/06/da/f606da2c12a6ea5bb7f90ec17baf3692.jpg);
+     background-position: center;
+     background-size: cover;
+     border-radius: 10px;
+ }
+ 
+ .p-des-word {
+     width: 70%;
+     height: 200px;
+     order: -1;
+     color: gray;
+     line-height: 20px;
+     position: relative;
+ }
+ 
+ .p-des-word h3 {
+     margin-left: 120px;
+ }
+ 
+ .p-des-word p {
+     margin-left: 120px;
+ }
+ 
+ .p-des-word-protrait {
+     position: absolute;
+     top: 0px;
+     left: 0px;
+     width: 90px;
+     height: 90px;
+     background-image: url(../img/skill\ poster\ teacher.jpg);
+     background-size: cover;
+     background-position: center;
+     border-radius: 10px;
+ }
+ 
+ .pos-des-icon {
+     display: flex;
+     flex-wrap: wrap;
+     position: absolute;
+     height: 110px;
+     width: 600px;
+     top: 100px;
+     left: 0px;
+     /* flex-wrap: wrap; */
+ }
+ 
+ .d-p-i-signpw {
+     display: flex;
+     margin-left: 10px;
+ }
+ 
+ .d-p-i-wd {
+     color: rgb(71, 71, 71);
+     margin-left: 2px;
+ }
+ 
+ .d-p-i-wd p {
+     /* line-height: 100px; */
+     padding-top: 40px;
+ }
+ 
+ .d-p-i-sign {
+     background-image: url(../icon/skill-tar-free.png);
+     background-size: cover;
+     background-position: center;
+     opacity: 0.7;
+     width: 70px;
+     height: 60px;
+     margin-bottom: 25px;
+ }
+ 
+ .d-p-i-locat {
+     background-image: url(../icon/skill-tar-locat.png);
+     background-size: 90px;
+     background-position: center;
+     opacity: 0.7;
+     width: 70px;
+     height: 60px;
+ }
+ 
+ .d-p-i-money {
+     background-image: url(../icon/skill-tar-money.png);
+     background-size: 60px;
+     background-repeat: no-repeat;
+     background-position: center;
+     opacity: 0.7;
+     width: 70px;
+     height: 60px;
+ }
+ 
+ .d-p-i-km {
+     margin-top: 40px;
+     margin-left: 220px;
+     border: 1px solid gray;
+     font-size: 20px;
+     border-radius: 10px;
+ }
+ 
+ .d-p-i-km a {
+     color: gray;
+     text-decoration: none;
+     padding: 6px;
+ }
+ /* 技能資訊宣傳 結束 */
+ /* 在台成功工作外國人人士演講 start */
+ 
+ .speach {
+     max-width: 1200px;
+     margin: 100px auto;
+     margin-top: 100px;
+ }
+ 
+ .all-speach {
+     display: flex;
+     margin: 0px auto;
+     justify-content: space-between;
+ }
+ 
+ .us {
+     width: 200px;
+     height: 240px;
+     margin-left: 20px;
+     background-image: url(https://i.pinimg.com/474x/c6/45/d2/c645d2b36450dd07f0158ce0c3ac1af4.jpg);
+     background-size: cover;
+     background-position: center;
+     box-shadow: 2px 4px 3px rgba(99, 99, 99, 0.651);
+ }
+ 
+ .uk {
+     width: 200px;
+     height: 240px;
+     margin-left: 20px;
+     background-image: url(https://i.pinimg.com/474x/3d/e6/ad/3de6add7e8b145c172cad86ba5283614.jpg);
+     background-size: cover;
+     background-position: center;
+     box-shadow: 2px 4px 3px rgba(99, 99, 99, 0.651);
+ }
+ 
+ .japen {
+     width: 200px;
+     height: 240px;
+     margin-left: 20px;
+     background-image: url(https://i.pinimg.com/474x/91/7d/bb/917dbb3d5c93ccdfad7eaa1fcbd709b4.jpg);
+     background-size: cover;
+     background-position: center;
+     box-shadow: 2px 4px 3px rgba(99, 99, 99, 0.651);
+ }
+ 
+ .thi {
+     width: 200px;
+     height: 240px;
+     margin-left: 20px;
+     background-image: url(https://i.pinimg.com/474x/51/3e/ba/513ebafd0d79bbc8156bc5f7aff8e5fa.jpg);
+     background-size: cover;
+     background-position: center;
+     box-shadow: 2px 4px 3px rgba(99, 99, 99, 0.651);
+ }
+ /* 在台成功工作外國人人士演講 end */
+ /* footer start  */
+ 
+ .footer {
+     margin: 0px auto;
+     margin-top: 180px;
+     max-width: 1920;
+     background-color: rgb(0, 90, 163);
+ }
+ 
+ .footer-pic {
+     width: 100vw;
+     background-image: url(../img/footer.jpeg);
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+     height: 600px;
+     position: relative;
+ }
+ 
+ .footer-pic-word {
+     background-color: #cacad696;
+     margin: 0px auto;
+     width: 500px;
+     height: 350px;
+     position: absolute;
+     top: 20%;
+     left: 35%;
+     text-align: center;
+ }
+ 
+ .f-pc-wd-h3p {
+     padding-top: 70px;
+     color: white;
+ }
+ 
+ .f-pc-wd-h3p h3 {
+     padding-bottom: 15px;
+     font-size: 30px;
+ }
+ 
+ .footer-pc-wd-link {
+     border-radius: 40px;
+     width: 300px;
+     height: 50px;
+     background-color: #0168DA;
+     margin: 40px auto;
+     line-height: 45px;
+ }
+ 
+ .footer-pc-wd-lastlink {
+     text-decoration: none;
+     color: white;
+ }
+ 
+ .footer-pc-wd-link a {
+     text-decoration: none;
+     color: white;
+ }
+ 
+ .footer-detail {
+     margin: 0px auto;
+     max-width: 1200px;
+     height: 800px;
+     /* background-image: url(/icon/iconfinder_Diamond_1597485.png);
+     background-repeat: repeat;
+     background-position: center;
+     background-size: 10px 10px;
+     opacity: 0.6; */
+ }
+ /* .footer-detail h3 {
+     color: white;
+     text-align: center;
+     font-size: 40px;
+     padding-left: 100px;
+ } */
+ 
+ .footer-logo {
+     width: 600px;
+     display: flex;
+     margin-top: 100px;
+ }
+ 
+ .footer-detail-ulli {
+     display: flex;
+     margin-top: 50px;
+ }
+ 
+ .footer-detail-ulli ul {
+     color: white;
+     margin-right: 40px;
+ }
+ 
+ .footer-detail-ulli li {
+     padding-top: 25px;
+ }
+ /* .footer-detail-ulli li :hover {
+     transform: scale(1.1);
+     transition: all .4s linear;
+ } */
+ 
+ .ft-tri {
+     max-width: 1920px;
+     display: flex;
+     justify-content: flex-end;
+ }
+ 
+ .ft-triangle {
+     width: 85px;
+     height: 90px;
+     border: white solid 1px;
+     padding: 10px 10px;
+ }
+ 
+ .ft-triangle a {
+     text-decoration: none;
+     color: #ffffff;
+     font-size: 25px;
+     line-height: 25px;
+ }
+ 
+ .footer-icon {
+     background-color: #0E2453;
+     width: 100vw;
+     height: 100px;
+     margin-top: 0px;
+ }
+ 
+ .ft-link-all {
+     padding-top: 16px;
+     display: flex;
+ }
+ 
+ .ft-icon-fb {
+     width: 40px;
+     height: 40px;
+     margin: 14px 0px;
+     background-image: url(../icon/fb-1.png);
+     background-size: cover;
+     background-position: center;
+     margin-left: 130px;
+ }
+ 
+ .ft-icon-ig {
+     width: 50px;
+     height: 50px;
+     margin: 10px 0px;
+     background-image: url(../icon/ig-1.png);
+     background-size: cover;
+     background-position: center;
+     margin-left: 40px;
+ }
+ 
+ .ft-icon-tw {
+     width: 50px;
+     height: 50px;
+     margin: 10px 0px;
+     margin-left: 40px;
+     background-image: url(../icon/twiter-1.png);
+     background-size: cover;
+     background-position: center;
+ }
+ /* footer end  */

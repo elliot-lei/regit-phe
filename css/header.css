@@ -1,0 +1,209 @@
+.banner {
+    max-width: 100vw;
+    height: 600px;
+    background-color: darkgray;
+    margin: 0px auto;
+    background-image: url(https://images.pexels.com/photos/4890733/pexels-photo-4890733.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    box-shadow: 9px 10px 10px rgba(0, 0, 0, 0.651);
+}
+
+.banner-meau {
+    width: 100vw;
+    position: fixed;
+    z-index: 4;
+}
+
+.bannertitle {
+    display: flex;
+    justify-content: space-between;
+    background-color: #002f53;
+    height: 80px;
+}
+
+.logotitle {
+    display: flex;
+}
+
+.logotitle {
+    margin-left: 110px;
+    display: flex;
+}
+
+.logo-p-h1 p {
+    color: rgb(255, 255, 255);
+    font-size: 7px;
+    padding-left: 7px;
+    padding-bottom: 8px;
+}
+
+.logo-p-h1 h1 {
+    line-height: 50px;
+    margin-left: 15px;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    margin-left: 50px;
+    margin: 10px 0px;
+    /* background-image: url(../icon/handinhand-2.png);
+    background-size: cover;
+    background-position: center; */
+    border-radius: 30px;
+    background-color: white;
+}
+
+.logo img {
+    width: 50px;
+    height: 50px;
+}
+
+.logo-explain {
+    margin-left: 30px;
+}
+
+.logo-explain p {
+    color: aliceblue;
+    font-size: 13px;
+    padding-top: 20px;
+    padding-left: 20px;
+    line-height: 21px;
+}
+
+.logo-explain strong {
+    font-size: 16px;
+}
+
+.icon-fb {
+    width: 40px;
+    height: 40px;
+    margin: 14px 0px;
+    margin-right: 15px;
+    background-image: url(../icon/fb-1.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.icon-ig {
+    width: 50px;
+    height: 50px;
+    margin: 10px 0px;
+    margin-right: 15px;
+    background-image: url(../icon/ig-1.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.icon-tw {
+    width: 50px;
+    height: 50px;
+    margin: 10px 0px;
+    margin-right: 15px;
+    background-image: url(../icon/twiter-1.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.link-all {
+    display: flex;
+}
+
+.linknb {
+    /* background-color: rgb(255, 255, 255); */
+    width: 150px;
+    height: 50px;
+    border-radius: 40px;
+    line-height: 30px;
+    margin-top: 10px;
+    color: white;
+    border: aliceblue solid 2px;
+    margin-right: 110px;
+}
+
+.linknb p {
+    padding-top: 9px;
+    padding-right: 4px;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+.meau {
+    background-color: white;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.meau ul {
+    display: flex;
+    margin: 0px auto;
+}
+
+.meauicon {
+    /* background-color: rgb(158, 158, 158); */
+    width: 30px;
+    height: 30px;
+    margin-left: 20px;
+    background-image: url(../icon/search.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.meauicon-love {
+    /* background-color: rgb(158, 158, 158); */
+    width: 30px;
+    height: 30px;
+    margin-left: 20px;
+    background-image: url(../icon/love.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.meauicon-mail {
+    /* background-color: rgb(158, 158, 158); */
+    width: 30px;
+    height: 30px;
+    margin-left: 20px;
+    background-image: url(../icon/mail.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.meauicon-login {
+    /* background-color: rgb(158, 158, 158); */
+    width: 30px;
+    height: 30px;
+    margin-left: 20px;
+    background-image: url(../icon/login.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.itembar {
+    display: flex;
+    justify-content: center;
+}
+
+.itembar a {
+    color: gray;
+    text-decoration: none;
+    padding: 10px 70px;
+}
+
+.meau li {
+    border-left: gray solid 2px;
+    margin: 13px 0px;
+    text-align: center;
+}
+
+.testrail{
+    height: 170px;
+    width: 255px;
+}
